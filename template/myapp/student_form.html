@@ -1,0 +1,8 @@
+<h1> Enter a Student Detail </h1>
+<form method='post' action=''>
+{% csrf_token %}
+	<table>
+		{{ form.as_table }}
+	</table>
+	<input type='submit' name='submit' value='submit'>
+</form>
